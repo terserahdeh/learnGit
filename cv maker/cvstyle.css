@@ -1,0 +1,86 @@
+body {
+    background-color: #FFF2F2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.cv-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -50px;
+    width : 100%;
+}
+.cv-title {
+    font-size: 32px;
+    color: #5661AE;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cv-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:80%;
+    max-width: 500px;
+    text-align: center;
+}
+h1 {
+    color: #7886C7;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.cv-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.cv-section h3 {
+    color: #555;
+    font-size: 18px;
+    border-bottom: 2px solid #7886C7;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.cv-section p {
+    margin: 5px 0;
+    color: #333;
+}
+.button {
+    text-decoration: none;
+    background: #7886C7;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background-color: #4D55CC; 
+}
+
+.logout-button {
+    display: block;
+    text-align: center;
+    color: #2D336B;
+    padding: 8px 15px;
+    text-decoration: none;
+    margin: 20px auto 0;
+    width: fit-content;
+    border-bottom: 1px solid transparent; /* Initially invisible */
+    transition: border-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+    border-bottom: 1px solid #2D336B; /* Shows the underline on hover */
+}

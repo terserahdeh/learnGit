@@ -1,0 +1,100 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    font-family: cambria;
+    background-color: #FFF2F2;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 500px; /* Adjust width if needed */
+    padding: 20px;
+}
+
+/* Form container */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Limit the width */
+    text-align: center;
+}
+
+/* Form group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input styling */
+input[type="text"],
+input[type="date"],
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Textarea styling */
+textarea {
+    height: 80px;
+    resize: none;
+}
+input[type="number"] {
+    appearance: textfield; /* Removes the spinner */
+    -moz-appearance: textfield; /* For Firefox */
+    -webkit-appearance: textfield; /* For Webkit browsers */
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    background-color: #7A73D1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background-color: #4D55CC; /* Darker blue on hover */
+}
+html, body {
+    height: auto;
+    min-height: 100vh; /* Ensures full height */
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allows natural scrolling */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
+
+.required::after {
+    content: " *";
+    color: #2D336B;
+    font-weight: bold;
+}
+
