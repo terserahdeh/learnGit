@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to left, #A9B5DF 33.3%, #FFFFFF 33.3%);
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start; 
+            padding: 20px;
+            font-family: Cambria;
+            position: relative; 
+        }
+
+        .rounded-rectangle {
+            width: 1050px;
+            height: 200px;
+            border-radius: 100px 0 0 100px;
+            background-color: #2D336B;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            position: relative; 
+            margin-bottom: 20px; 
+            align-self: flex-end; 
+            margin-right:-20px;
+        }
+
+        .circle-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .text-container {
+            margin-left: 200px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .sub-text {
+            font-size: 23px;
+            font-weight: normal;
+            margin-top: 10px;
+        }
+
+        .normal-text {
+            font-size: 15px;
+            max-width: 600px; 
+            text-align: justify; 
+            margin: 10px 0;
+        }
+
+        .another-text {
+            font-size: 15px;
+            max-width: 350px;
+            margin-left: 50px;
+        }
+        
+        .right-sub-text{
+            font-size: 15px;
+            max-width: 400px; 
+            text-align: justify; 
+            margin: 10px 0;
+        }
+
+        .text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            width: 100%;
+            padding-left: 0;
+        }
+
+        .small-rounded-rectangle {
+            width: 700px;
+            height: 50px;
+            border-radius: 0 100px 100px 0;
+            background-color: #2D336B;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            left: 0;
+            margin-left: -20px;
+            padding-right: 20px;
+            margin-top: 35px;
+        }
+
+        /* New Right Section */
+        .right-section {
+            position: absolute;
+            top: 200px;
+            right: -50px; 
+            width: 33.3%; 
+            height: 100vh; 
+            background-color: transparent; 
+            padding: 40px 20px 20px 40px; 
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+        }
+
+        .right-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2D336B;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="rounded-rectangle">
+        <img src="fotodiri.jpg" alt="profile picture" class="circle-img">
+        <div class="text-container">
+            Sheyla Natasha Rahma Ditia
+            <p class="sub-text">Sistem Informasi 24</p>
+        </div>
+        <p class="another-text">
+            Jl. Veteran, Ketawanggede, Lowokwaru, Kota Malang, Jawa Timur, Indonesia<br><br>
+            1234 5678 9101<br><br>
+            sheyla_natasha@student.ub.ac.id
+        </p>
+    </div>
+
+    <div class="text-wrapper">
+        <div class="small-rounded-rectangle">Pengalaman</div>
+        <p class="normal-text">
+            <span style="flex-grow: 1;"><b>Divisi Perlengkapan - Book Donation</b></span>
+            <span style="margin-left: 327px;"><b>2023</b></span>
+        </p>
+        <div class="normal-text"> 
+            <ul>
+                <li>Berkontribusi sebagai anggota divisi perlengkapan dalam kegiatan penggalangan dan donasi buku.</li>
+                <li>Bertanggung jawab atas pengelolaan dan persiapan logistik, termasuk ketersediaan alat serta kesiapan ruangan untuk kelancaran acara.</li>
+                <li>Bekerja secara tim untuk memastikan efisiensi dalam pengaturan perlengkapan dan pemenuhan kebutuhan teknis acara.</li>
+            </ul>
+        </div>
+        <p class="normal-text">
+            <span style="flex-grow: 1;"><b>Local Volunteer - Equify by Aiesec</b></span>
+            <span style="margin-left: 185px;"><b>Januari 2025 - Februari 2025</b></span>
+        </p>
+        <div class="normal-text"> 
+            <ul>
+                <li>Membantu pelajar luar negeri untuk memahami budaya lokal dan meningkatkan kemampuan komunikasi antar budaya.</li>
+                <li>Mengembangkan kemampuan penyelesaian masalah dengan mengatasi tantangan yang dihadapi oleh peserta.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-wrapper">
+        <div class="small-rounded-rectangle">Pendidikan</div>
+        <p class="normal-text">
+            <span style="flex-grow: 1;"><b>MAN 2 Kota Malang</b></span>
+            <span style="margin-left: 390px;"><b>2021-2024</b></span>
+        </p>
+        <div class="normal-text">
+            <ul>
+                <li>Menguasai konsep dasar dan lanjutan dalam Matematika, Fisika, Kimia, dan Biologi, dengan rata-rata nilai 92 di semua mata pelajaran</li>
+                <li>Club Bahasa Inggris dan Jepang</li>
+            </ul>
+        </div>
+            
+        <p class="normal-text">
+            <span style="flex-grow: 1;"><b>Sarjana Sistem Informasi</b></span>
+            <span style="margin-left: 300px;"><b>2024-Sekarang</b></span>
+            Universitas Brawijaya
+        </p>
+    </div>
+
+    <div class="right-section">
+        <p class="right-text">Deskripsi</p>
+        <p class="right-sub-text">Mahasiswa semester 2 jurusan Sistem Informasi di Universitas Brawijaya dengan ketertarikan besar pada analisis data, pemrograman, dan teknologi informasi. Lulus SMA dengan prestasi akademik baik dan pengalaman dalam proyek-proyek berbasis teknologi di sekolah, seperti pengolahan data sederhana menggunakan Excel atau Google Sheets. Aktif mempelajari dasar-dasar analisis data melalui kursus daring dan tertarik mengembangkan keterampilan lebih mendalam di bidang data analytics melalui bootcamp.</p><br>
+    
+        <p class="right-text">Keterampilan</p>
+        <ul class="right-sub-text">
+            <li><span style="font-weight: bold;">Analisis Data</span> dengan Excel & Google Sheets</li>
+            <li><span style="font-weight: bold;">Dasar-dasar Pemrograman</span> (Python & SQL)</li>
+            <li><span style="font-weight: bold;">Pengolahan Data</span> Statistik</li>
+            <li><span style="font-weight: bold;">Manajemen Proyek</span> Sederhana</li>
+        </ul>
+    
+        <p class="right-text">Sertifikasi</p>
+        <ul class="right-sub-text">
+            <li><span style="font-weight: bold;">Data Science Fundamentals</span> - Dicoding</li>
+            <li><span style="font-weight: bold;">Excel for Business</span> - Coursera</li>
+            <li><span style="font-weight: bold;">Python Basics</span> - DataCamp</li>
+        </ul>
+    </div>
+</body>
+</html>
